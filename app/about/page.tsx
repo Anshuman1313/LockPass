@@ -19,7 +19,7 @@ const page = () => {
       </div>
 
       {/* Box 2: Forest Green */}
-      <div className="bg-green-800 rounded-2xl p-6 flex flex-col items-center max-md:mt-[2vh]"> 
+      <div className="bg-green-800 rounded-2xl p-6 flex flex-col items-center max-md:mt-[2vh] hover:border-2"> 
         <h2 className="text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-tight text-white">
           📩 Get in Touch
         </h2>
@@ -36,7 +36,7 @@ const page = () => {
       </div>
       
       {/* Box 3: Burgundy */}
-      <div className="bg-pink-900 rounded-2xl p-6 flex flex-col items-center max-md:mt-[2vh]">
+      <div className="bg-pink-900 rounded-2xl p-6 flex flex-col items-center max-md:mt-[2vh] hover:border-2">
         <h2 className="text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-tight text-white">
           🔐 Why Choose LockPass?
         </h2>

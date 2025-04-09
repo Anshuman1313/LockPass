@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default async function Home() {
   const user = await currentUser()
-  console.log(user?.privateMetadata)
+  // console.log(user?.privateMetadata)
   // console.log("Passwords Data:", JSON.stringify(user?.privateMetadata.passwords, null, 2));
   return (<div>
       {/* <div
@@ -45,7 +45,7 @@ export default async function Home() {
               <Addpassword />
             </div>
 
-            <div className="bg-white rounded-lg shadow p-6 border max-md:p-2 max-md:w-[65%]">
+            <div className="bg-white rounded-lg shadow p-6 border max-md:p-2 max-md:w-[100%]">
               <h2 className="text-xl font-semibold mb-4">Your Passwords</h2>
               <Yourpassword  arrayofpasswords ={Array.isArray(user?.privateMetadata.passwords)?user?.privateMetadata.passwords:[]}/>
  
