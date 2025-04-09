@@ -40,7 +40,7 @@ export default async function Home() {
 
         <TabsContent value="passwords" className="space-y-6 dark:text-black contain-content max-md: w-[100%] ">
           <div className="grid md:grid-cols-2 md:gap-6 max-md:gap-4 max-md:w-[60%] ">
-            <div className="bg-white rounded-lg shadow p-1 md:p-6 border max-md:p-2 max-md:w-[65%] ">
+            <div className="bg-white rounded-lg shadow p-1 md:p-6 border max-md:p-2 max-md:w-[100%] ">
               <h2 className="text-xl font-semibold mb-4 dark:text-black">Add a Password</h2>
               <Addpassword />
             </div>
