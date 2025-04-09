@@ -9,7 +9,7 @@ import { Label } from "@/components/ui/label"
 import { Eye, EyeOff, Lock, Globe, RefreshCw } from "lucide-react"
 import { addPasswords } from "@/actions/actions"
 import { useUser } from "@clerk/nextjs"
-import { unique } from "next/dist/build/utils"
+
 import { nanoid } from 'nanoid'
 import { useRouter } from "next/navigation"
 import toast from "react-hot-toast"
@@ -39,7 +39,7 @@ export function Addpassword() {
          router.refresh()
         }
     // Here you would typically save the password to your state or database
-    console.log("Saving password for:", website, username)
+    // console.log("Saving password for:", website, username)
 
     // Reset form
     setWebsite("")

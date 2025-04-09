@@ -4,16 +4,12 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { Eye, EyeOff, Copy, Pencil, Trash2, Search } from "lucide-react"
+import { Eye, EyeOff, Copy, Trash2, Search } from "lucide-react"
 import { useUser } from "@clerk/nextjs";
 import toast from "react-hot-toast"
 
 // Sample data - in a real app this would come from your database
-const samplePasswords = [
-  { id: 1, website: "google.com", username: "user@example.com", password: "p@ssw0rd123" },
-  { id: 2, website: "github.com", username: "devuser", password: "c0d3r2023!" },
-  { id: 3, website: "netflix.com", username: "moviefan", password: "str3@ming!" },
-]
+
 interface PasswordProps {
   website: string, username: string, password: string, unique_id: string
 

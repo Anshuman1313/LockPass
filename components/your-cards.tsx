@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Search, Pencil, Trash2, Copy, Divide } from "lucide-react"
+import { Search, Trash2, Copy} from "lucide-react"
 
 import { useUser } from "@clerk/nextjs";
 import { toast } from 'react-hot-toast';
@@ -19,32 +19,7 @@ interface CardProps{
 }
 
 // Sample data - in a real app this would come from your database
-const sampleCards = [
-  {
-    id: 1,
-    cardNo: "4111 1111 1111 1111",
-    cardholderName: "John Doe",
-    expiry: "05/25",
-    type: "Visa",
-    color: "bg-gradient-to-r from-blue-500 to-purple-500",
-  },
-  {
-    id: 2,
-    cardNo: "5555 5555 5555 4444",
-    cardholderName: "Jane Smith",
-    expiry: "12/24",
-    type: "MasterCard",
-    color: "bg-gradient-to-r from-red-500 to-orange-500",
-  },
-  {
-    id: 3,
-    cardNo: "3782 822463 10005",
-    cardholderName: "Alex Johnson",
-    expiry: "09/26",
-    type: "American Express",
-    color: "bg-gradient-to-r from-green-500 to-teal-500",
-  },
-]
+
 // {arrayofcards}:{arrayofcards:CardProps[]}
 export function Yourcards({arrayofcards}:{arrayofcards:CardProps[]}) {
   const [cards, setCards] = useState(arrayofcards)
