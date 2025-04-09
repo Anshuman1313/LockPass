@@ -2,11 +2,7 @@ import { type Metadata } from 'next'
 import { ThemeProvider } from "@/components/theme-provider"
 import {
   ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
+
 } from '@clerk/nextjs'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'

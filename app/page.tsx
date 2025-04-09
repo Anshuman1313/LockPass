@@ -5,8 +5,7 @@ import { Yourpassword } from "@/components/your-password"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import type { Metadata } from 'next'
 import { currentUser } from "@clerk/nextjs/server"
-import { cn } from "@/lib/utils";
-import Link from "next/link"
+
  
 export const metadata: Metadata = {
   title: 'Lock Pass',
