@@ -27,7 +27,7 @@ export default async function Home() {
         )}
       /> */}
 
-     <main className="container mx-auto md:px-4 py-8 max-md:px-4">
+     <main className="container mx-auto md:px-4 py-8 max-md:px-4 ">
       
       <h1 className="text-xl  md:text-3xl font-bold mb-6">Your Password Manager</h1>
       {/* <div>do reload if card is not shown after adding</div> */}
@@ -39,13 +39,13 @@ export default async function Home() {
         </TabsList>
 
         <TabsContent value="passwords" className="space-y-6 dark:text-black contain-content max-md: w-[100%] ">
-          <div className="grid md:grid-cols-2 md:gap-6 max-md:gap-4 max-md:w-[60%] ">
-            <div className="bg-white rounded-lg shadow p-1 md:p-6 border max-md:p-2 max-md:w-[100%] ">
+          <div className="grid md:grid-cols-2 md:gap-6 max-md:gap-4 max-md:w-[90%] ">
+            <div className="bg-white rounded-lg shadow p-1 md:p-6 border max-md:p-2  max-sm:min-w-[38vw] ">
               <h2 className="text-xl font-semibold mb-4 dark:text-black">Add a Password</h2>
               <Addpassword />
             </div>
 
-            <div className="bg-white rounded-lg shadow p-6 border max-md:p-2 max-md:w-[100%]">
+            <div className="bg-white rounded-lg shadow p-6 border max-md:p-2 max-sm:min-w-[38vw]">
               <h2 className="text-xl font-semibold mb-4">Your Passwords</h2>
               <Yourpassword  arrayofpasswords ={Array.isArray(user?.privateMetadata.passwords)?user?.privateMetadata.passwords:[]}/>
  
