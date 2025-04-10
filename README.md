@@ -9,6 +9,10 @@ LockPass is a simple and secure password manager built with **Next.js**, **React
 🔗 [LockPass - Live App](https://lock-pass.vercel.app/)
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/da5762e0-4985-4510-b2e0-c050d2c43ebd)
+![image](https://github.com/user-attachments/assets/6e803431-a1bf-4fb8-8175-cd84681638d4)
+
+
 
 <!-- Add screenshots here (Optional) -->
 
