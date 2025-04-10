@@ -2,7 +2,8 @@
 
 [![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=flat&logo=vercel)](https://lock-pass.vercel.app/)
 
-LockPass is a simple and secure password manager built with **Next.js**, **React**, and **Tailwind CSS**. It allows users to store and manage their passwords safely.
+LockPass is a simple and secure password manager built with **Next.js**, **React**, and **Tailwind CSS**. It allows users to store and manage their passwords safely (User can also delete and copy passwords).
+
 
 ## 🚀 Live Demo
 
